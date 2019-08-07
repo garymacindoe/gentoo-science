@@ -21,8 +21,6 @@ SLOT="0/${PV}"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="+deprecated static-libs test xblas"
 
-REQUIRED_USE="test? ( ${PYTHON_REQUIRED_USE} )"
-
 RDEPEND="
 	>=virtual/blas-2.1-r3[int64?,${MULTILIB_USEDEP}]
 	xblas? ( sci-libs/xblas[fortran,int64?] )"
