@@ -21,8 +21,6 @@ SLOT="0/${LPV}"
 KEYWORDS="~amd64 ~x86 ~amd64-linux ~x86-linux"
 IUSE="static-libs test"
 
-REQUIRED_USE="test? ( ${PYTHON_REQUIRED_USE} )"
-
 RDEPEND=""
 DEPEND="${RDEPEND}
 	test? ( ${PYTHON_DEPS} )
